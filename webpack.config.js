@@ -16,5 +16,10 @@ module.exports = {
     },
     output : {
         filename : "bundle.js"
-    }
+    },
+    allowedHosts: [
+        '.kinkorn.pongpich.xyz',
+        'kinkorn.pongpich.xyz',
+        'pongpich.xyz'
+         ]
 }
